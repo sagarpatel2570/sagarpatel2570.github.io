@@ -1,0 +1,56 @@
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+footer {
+    margin: 10px 0;
+}
+
+@media screen and (min-width: 768px)
+{
+.intro h1 {
+    font-size: 63px;
+    margin-bottom: 10px;
+}
+    .intro p{
+    margin-bottom: 15px;
+    margin-top: 10px;
+    font-size: 21px;
+    font-weight: 200;
+    }
+}
+
+.intro h1 {
+    margin-bottom: 10px;
+}
+    .intro p{
+    margin-bottom: 15px;
+    margin-top: 10px;
+    }
+
+header{
+    padding: 10px 5px;
+    margin-bottom: 10px;
+    color: inherit;
+    background-color: #eee;
+}
+
+#contact h5{
+    padding: 0px 10px;
+    font-size: 16px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.1);
+    font-weight: 300;
+}
+
+.vid{
+    position: relative;
+    width: 100%;
+    height: 0px;
+    padding-bottom: 40%;
+}
+
+.vid iframe{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
