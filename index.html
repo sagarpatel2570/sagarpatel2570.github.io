@@ -499,6 +499,15 @@ MAinly it can be use for navigating around the scene for testing or may be when 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
+    <script>
+        $('a[href*=#]').click(function(event){
+            $('html, body').animate({
+                scrollTop: $( $.attr(this, 'href') ).offset().top - 75
+            }, 500);
+            event.preventDefault();
+        });
+    </script>
+
 </body>
 
 </html>
